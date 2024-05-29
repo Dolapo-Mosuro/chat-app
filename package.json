@@ -2,11 +2,10 @@
 	"name": "chat-app",
 	"version": "1.0.0",
 	"description": "This repository contains the chat application.",
-	"main": "index.js",
+	"main": "app.js",
 	"type": "module",
 	"scripts": {
-		"server": "nodemon backend/server-starter.js",
-		"completed": "node backend/server-completed.js"
+		"server": "nodemon backend/app.js"
 	},
 	"repository": {
 		"type": "git",
